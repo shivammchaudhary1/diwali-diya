@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        background-color: black;
+      }
+      #root {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 70px;
+      }
+      .diya {
+        height: 50px;
+        width: 200px;
+        border-radius: 80%;
+        background-color: red;
+        rotate: 90deg;
+      }
+      .low {
+        height: 10px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: yellow;
+      }
+      .semi {
+        margin-top: -25px;
+
+        transform: translate(0%, -50%);
+        height: 100px;
+        width: 200px;
+        border-radius: 0 0 150px 150px;
+        background-color: brown;
+      }
+      .yellow {
+        border: 1px solid yellow;
+        height: 20px;
+        width: 150px;
+        border-radius: 100%;
+        background-color: yellow;
+        rotate: 90deg;
+        margin-top: -320px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="diya"></div>
+      <div class="low"></div>
+      <div class="semi"></div>
+      <div class="yellow"></div>
+      <h1 style="color: aliceblue; margin-top: -300px">Happy Diwali</h1>
+    </div>
+  </body>
+</html>
